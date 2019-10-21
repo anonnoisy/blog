@@ -1,26 +1,20 @@
-<!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-  <div class="container">
-    <a class="navbar-brand" href="/blog/index">Start Bootstrap</a>
-    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-      Menu
-      <i class="fas fa-bars"></i>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarResponsive">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="/blog">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="about.html">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="post.html">Sample Post</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-      </ul>
-    </div>
+<div class="menu d-flex flex-column align-items-end justify-content-start text-right menu_mm trans_400">
+  <div class="menu_close_container"><div class="menu_close"><div></div><div></div></div></div>
+  <div class="logo menu_mm"><a href="#">Avision</a></div>
+  <div class="search">
+    <form action="#">
+      <input type="search" class="header_search_input menu_mm" required="required" placeholder="Type to Search...">
+      <img class="header_search_icon menu_mm" src="images/search_2.png" alt="">
+    </form>
   </div>
-</nav>
+  <nav class="menu_nav">
+    <ul class="menu_mm">
+      <li class="menu_mm"><a href="index.html">home</a></li>
+      <li class="menu_mm"><a href="#">Fashion</a></li>
+      <li class="menu_mm"><a href="#">Gadgets</a></li>
+      <li class="menu_mm"><a href="#">Lifestyle</a></li>
+      <li class="menu_mm"><a href="#">Video</a></li>
+      <li class="menu_mm"><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</div>

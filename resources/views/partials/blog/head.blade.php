@@ -1,17 +1,13 @@
+<title>Blog @yield('title')</title>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="description" content="">
-<meta name="author" content="">
-
-<title>Clean Blog - @yield('title')</title>
-
-<!-- Bootstrap core CSS -->
-<link href="{{ asset('blog/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
-
-<!-- Custom fonts for this template -->
-<link href="{{ asset('blog/vendor/fontawesome-free/css/all.min.css') }}" rel="stylesheet" type="text/css">
-<link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-
-<!-- Custom styles for this template -->
-<link href="{{ asset('blog/css/clean-blog.min.css') }}" rel="stylesheet">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Demo project">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href=" {{ asset('blog/styles/bootstrap4/bootstrap.min.css') }}">
+<link href=" {{ asset('blog/plugins/font-awesome-4.7.0/css/font-awesome.min.css') }}" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href=" {{ asset('blog/plugins/OwlCarousel2-2.2.1/owl.carousel.css') }}">
+<link rel="stylesheet" type="text/css" href=" {{ asset('blog/plugins/OwlCarousel2-2.2.1/owl.theme.default.css') }}">
+<link rel="stylesheet" type="text/css" href=" {{ asset('blog/plugins/OwlCarousel2-2.2.1/animate.css') }}">
+<link rel="stylesheet" type="text/css" href=" {{ asset('blog/plugins/jquery.mb.YTPlayer-3.1.12/jquery.mb.YTPlayer.css') }}">
+<link rel="stylesheet" type="text/css" href=" {{ asset('blog/styles/main_styles.css') }}">
+<link rel="stylesheet" type="text/css" href=" {{ asset('blog/styles/responsive.css') }}">
